@@ -1,4 +1,4 @@
-require('dotenv').config();
+
 
 const { app } = require('@azure/functions');
 const sql = require('mssql');

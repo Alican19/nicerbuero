@@ -1,5 +1,5 @@
 // sensor-data.js
-require('dotenv').config();
+
 
 const { app } = require('@azure/functions');
 const sql = require('mssql');
