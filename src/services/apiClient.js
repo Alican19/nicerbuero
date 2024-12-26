@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:7071/api";
+const API_BASE_URL = "https://agreeable-smoke-038738503.4.azurestaticapps.net/api" || "http://localhost:7071/api";
 
 // Create and export a shared axios instance with default config
 export const apiClient = axios.create({
